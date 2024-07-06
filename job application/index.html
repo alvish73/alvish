@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- https://www.youtube.com/watch?v=R3GOIx3UqGE&list=PLPppPPmk0i3hZCNmbVtcP1hlwDKOdUFX9&index=3 -->
+</head>
+
+<body>
+    <div class="main">
+        <h1>Job Application</h1>
+        <br>
+        <div class="form">
+            <div>
+                <span>First name</span>
+                <br>
+                <input type="text" name="username" placeholder="Enter First name....">
+            </div>
+            <div>
+                <span>Last name</span>
+                <br>
+                <input type="text" name="username" placeholder="Enter Last name....">
+            </div>
+            <div class="form_control">
+                <label for="job_role"> Job Role </label>
+                <br>
+                <select id="job_role" name="job_role">
+                    <option value="">Select Job Role</option>
+                    <option value="frontend">Frontend Developer</option>
+                    <option value="backend">Backend Developer</option>
+                    <option value="full_stack">Full Stack Developer</option>
+                    <option value="ui_ux">UI UX Designer</option>
+                </select>
+            </div>
+            <div>
+                <span>Address</span>
+                <br>
+                <input type="text" name="username" placeholder="Enter Address....">
+            </div>
+            <div>
+                <span>City</span>
+                <br>
+                <input type="text" name="username" placeholder="Enter City name....">
+            </div>
+            <div>
+                <label>Pincode</label>
+                <br>
+                <input type="text" name="username" placeholder="Enter Pincode....">
+            </div>
+            <div>
+                <label for="date"> Date </label>
+                <input value="10-10-2024" type="date" id="date" name="date" />
+            </div>
+            <div >
+                <label for="upload"> Upload Your CV </label>
+                <input type="file" id="upload" name="upload" />
+            </div>
+            
+        </div>
+        <div class="button_container2">
+            <button class="button_container" type="submit">Apply Now</button>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
