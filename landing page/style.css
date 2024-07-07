@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img {
+    position: relative;
+    background-image: url(photo_6217561775323332534_y.jpg);
+    min-height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    padding: 100px;
+    color: white;
+}
+
+section {
+    background-color: rgb(156, 205, 245);
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    font: bold;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5px;
+    gap: 5px 5px;
+    justify-content: center;
+}
+
+.card1 {
+    background-color: bisque;
+    height: auto;
+    border-radius: 8px;
+}
+
+.img1 {
+    width: 25vw;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    /* padding: 10px 10px; */
+    margin: 35px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.card2 {
+    background-color: rgb(241, 179, 102);
+    height: auto;
+    border-radius: 8px;
+}
+
+.img2 {
+    width: 25vw;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding: 10px 10px;
+}
+
+.card3 {
+    background-color: bisque;
+    height: auto;
+    border-radius: 8px;
+}
+
+.img3 {
+    width: 25vw;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding: 10px 10px;
+}
+.card1, .card2,.card3{
+    padding: 10px;
+}
+
+.info {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+.space{
+    background-color: black;
+    height: 50px;
+}
+.button{
+    /* border: 1px solid #ddd; */
+    border-radius: 4px;
+    padding: 5px;
+    /* position: static; */
+/* position: relative; */
+/* position: absolute; */
+position: fixed;
+/* position: sticky; */
+    top: 70vw;
+    right: 3vw;
+    
+  }
+  .button a img{
+    height: 50px;
+  }
+  
